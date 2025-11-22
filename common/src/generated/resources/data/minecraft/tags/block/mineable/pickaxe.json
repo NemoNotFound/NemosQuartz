@@ -1,0 +1,13 @@
+{
+  "values": [
+    "nemos_quartz:quartz_pressure_plate",
+    "nemos_quartz:quartz_button",
+    "nemos_quartz:cracked_quartz_bricks",
+    "nemos_quartz:cracked_quartz_brick_stairs",
+    "nemos_quartz:cracked_quartz_brick_slab",
+    "nemos_quartz:cracked_quartz_brick_wall",
+    "nemos_quartz:quartz_brick_stairs",
+    "nemos_quartz:quartz_brick_slab",
+    "nemos_quartz:quartz_brick_wall"
+  ]
+}

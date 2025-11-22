@@ -16,10 +16,13 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.devnemo.nemos.examplemod.FabricExampleMod"
+            "com.nemonotfound.nemos.quartz.NemosQuartz"
+        ],
+        "client": [
+            "com.nemonotfound.nemos.quartz.NemosQuartzClient"
         ],
         "fabric-datagen": [
-            "com.devnemo.nemos.examplemod.DataGenerator"
+            "com.nemonotfound.nemos.quartz.DataGenerator"
         ]
     },
     "mixins": [

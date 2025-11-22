@@ -1,31 +1,34 @@
-![Mod](https://github.com/NemoNotFound/NemoNotFound/blob/master/resources/minecraft_projects/titles/png/nemos_.png?raw=true)
-<br><br>
-
 ## Description
-...
 
-For detailed information, check out the [wiki](https://wiki.devnemo.com/projects/minecraft-mods/nemos-/general).
+**Nemo's Quartz** adds new quartz blocks to Minecraft:
+- Pressure Plate
+- Button
+- Cracked Brick Blocks
+- Brick Stairs, Slab and Wall
+- Pots
+
+For detailed information, check out the [wiki](https://wiki.devnemo.com/projects/minecraft-mods/nemos-quartz/general).
 
 ## Downloads
-- [CurseForge](https://curseforge.com/minecraft/mc-mods/nemos-)
-- [Modrinth](https://modrinth.com/mod/nemos-)
-<br><br>
+
+- [CurseForge](https://curseforge.com/minecraft/mc-mods/nemos-quartz)
+- [Modrinth](https://modrinth.com/mod/nemos-quartz)
 
 ## Third-Party Components
 
 - Uses [MultiLoader‑Template (CC0-1.0)](https://github.com/jaredlll08/MultiLoader-Template) for multiple loader support.
 
 ## Join my Discord!
+
+Join my Discord to meet new people and stay up to date with all of my mods!
+
 [![Join my Discord](https://github.com/NemoNotFound/NemoNotFound/blob/master/resources/svg/join_discord_button.svg?raw=true)](https://discord.com/invite/yxs9dga)
-<br><br>
 
 ## Support Me
 I love to create mods for Minecraft and wish to live off it one day, so I hope you like what I do. <br>
-Either way feel free to give me your feedback and suggestions, either on my Discord or the [discussions](https://github.com/NemoNotFound/Nemos/discussions/) :)
-<br><br>
+Either way feel free to give me your feedback and suggestions, either on my Discord or the [discussions](https://github.com/NemoNotFound/NemosQuartz/discussions/) :)
 
-[![ko-fi donation](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.devnemo.com)
-<br><br>
+[![ko-fi donation](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.nemonotfound.com)
 
 ## Get a Minecraft Server
 Looking for a Minecraft Server? Check out [BisectHosting](https://bisecthosting.com/Nemo404)! <br>

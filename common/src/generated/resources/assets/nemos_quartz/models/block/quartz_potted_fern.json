@@ -1,0 +1,6 @@
+{
+  "parent": "nemos_quartz:block/tinted_quartz_flower_pot_cross",
+  "textures": {
+    "plant": "minecraft:block/fern"
+  }
+}
