@@ -58,9 +58,9 @@ public class QuartzModelProvider extends FabricModelProvider {
         createPottedPlant(blockModelGenerators, Blocks.PALE_OAK_SAPLING, QuartzBlocks.QUARTZ_POTTED_PALE_OAK_SAPLING.get(), PlantType.NOT_TINTED);
         blockModelGenerators.createNonTemplateModelBlock(QuartzBlocks.QUARTZ_POTTED_MANGROVE_PROPAGULE.get());
         createPottedPlant(blockModelGenerators, Blocks.CRIMSON_FUNGUS, QuartzBlocks.QUARTZ_POTTED_CRIMSON_FUNGUS.get(), PlantType.NOT_TINTED);
-        blockModelGenerators.createNetherRoots(Blocks.CRIMSON_ROOTS, QuartzBlocks.QUARTZ_POTTED_CRIMSON_ROOTS.get());
+        createNetherRoots(blockModelGenerators, Blocks.CRIMSON_ROOTS, QuartzBlocks.QUARTZ_POTTED_CRIMSON_ROOTS.get());
         createPottedPlant(blockModelGenerators, Blocks.WARPED_FUNGUS, QuartzBlocks.QUARTZ_POTTED_WARPED_FUNGUS.get(), PlantType.NOT_TINTED);
-        blockModelGenerators.createNetherRoots(Blocks.WARPED_ROOTS, QuartzBlocks.QUARTZ_POTTED_WARPED_ROOTS.get());
+        createNetherRoots(blockModelGenerators, Blocks.WARPED_ROOTS, QuartzBlocks.QUARTZ_POTTED_WARPED_ROOTS.get());
         createPottedPlant(blockModelGenerators, Blocks.FERN, QuartzBlocks.QUARTZ_POTTED_FERN.get(), PlantType.TINTED);
         createPottedPlant(blockModelGenerators, Blocks.DANDELION, QuartzBlocks.QUARTZ_POTTED_DANDELION.get(), PlantType.NOT_TINTED);
         createPottedPlant(blockModelGenerators, Blocks.POPPY, QuartzBlocks.QUARTZ_POTTED_POPPY.get(), PlantType.NOT_TINTED);
@@ -128,6 +128,13 @@ public class QuartzModelProvider extends FabricModelProvider {
         }
 
         blockModelGenerators.blockStateOutput.accept(createSimpleBlock(quartzPottedAzaleaBlock, multiVariant));
+    }
+
+    public final void createNetherRoots(BlockModelGenerators blockModelGenerators, Block plantBlock, Block pottedPlantBlock) {
+        var textureMapping = TextureMapping.plant(TextureMapping.getBlockTexture(plantBlock, "_pot"));
+        var multiVariant = plainVariant(PlantType.NOT_TINTED.getCrossPot().create(pottedPlantBlock, textureMapping, blockModelGenerators.modelOutput));
+
+        blockModelGenerators.blockStateOutput.accept(createSimpleBlock(pottedPlantBlock, multiVariant));
     }
 
     @Environment(EnvType.CLIENT)

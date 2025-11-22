@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/flower_pot_cross",
+  "parent": "nemos_quartz:block/quartz_flower_pot_cross",
   "textures": {
     "plant": "minecraft:block/warped_roots_pot"
   }
