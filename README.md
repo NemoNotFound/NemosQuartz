@@ -9,7 +9,7 @@
 - Brick Stairs, Slab and Wall
 - Pots
 
-For detailed information, check out the [wiki](https://wiki.devnemo.com/projects/minecraft-mods/nemos-quartz/general).
+For detailed information, check out the [wiki](https://wiki.nemonotfound.com/projects/minecraft-mods/nemos-quartz/general).
 
 ## Downloads
 
