@@ -2,7 +2,7 @@ package com.nemonotfound.nemos.quartz.client.data.models.model;
 
 import net.minecraft.client.data.models.model.ModelTemplate;
 import net.minecraft.client.data.models.model.TextureSlot;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 
 import java.util.Optional;
 
@@ -17,6 +17,6 @@ public class QuartzModelTemplates {
     public static final ModelTemplate QUARTZ_POTTED_FLOWERING_AZALEA = create("template_quartz_potted_azalea_bush", TextureSlot.PLANT, TextureSlot.TOP, TextureSlot.SIDE);
 
     private static ModelTemplate create(String path, TextureSlot... textureSlots) {
-        return new ModelTemplate(Optional.of(ResourceLocation.fromNamespaceAndPath(MOD_ID,"block/" + path)), Optional.empty(), textureSlots);
+        return new ModelTemplate(Optional.of(Identifier.fromNamespaceAndPath(MOD_ID,"block/" + path)), Optional.empty(), textureSlots);
     }
 }

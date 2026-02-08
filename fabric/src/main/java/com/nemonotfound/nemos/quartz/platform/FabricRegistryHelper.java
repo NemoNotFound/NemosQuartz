@@ -11,7 +11,7 @@ import net.minecraft.core.component.DataComponentType;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.ai.attributes.Attribute;
@@ -50,7 +50,7 @@ public class FabricRegistryHelper implements IRegistryHelper {
 
     @Override
     public <T extends Entity> Supplier<EntityType<T>> registerEntity(String id, EntityType.Builder<T> entityTypeBuilder) {
-        var resourceLocation = ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, id);
+        var resourceLocation = Identifier.fromNamespaceAndPath(Constants.MOD_ID, id);
         var resourceKey = ResourceKey.create(Registries.ENTITY_TYPE, resourceLocation);
 
         return registerSupplier(BuiltInRegistries.ENTITY_TYPE, id, () -> entityTypeBuilder.build(resourceKey));
@@ -75,7 +75,7 @@ public class FabricRegistryHelper implements IRegistryHelper {
 
     @Override
     public Supplier<Holder<Attribute>> registerAttribute(String id, Attribute attribute) {
-        var attributeReference = Registry.registerForHolder(BuiltInRegistries.ATTRIBUTE, ResourceLocation.fromNamespaceAndPath(MOD_ID, id), attribute);
+        var attributeReference = Registry.registerForHolder(BuiltInRegistries.ATTRIBUTE, Identifier.fromNamespaceAndPath(MOD_ID, id), attribute);
 
         return () -> attributeReference;
     }
@@ -88,14 +88,14 @@ public class FabricRegistryHelper implements IRegistryHelper {
     }
 
     private static <T, R extends Registry<? super T>> Supplier<T> registerSupplier(R registry, String id, Supplier<T> object) {
-        final var resourceLocation = ResourceLocation.fromNamespaceAndPath(MOD_ID, id);
+        final var resourceLocation = Identifier.fromNamespaceAndPath(MOD_ID, id);
         final var registeredObject = Registry.register((Registry<T>) registry, resourceLocation, object.get());
 
         return () -> registeredObject;
     }
 
     private static <T, R extends Registry<T>> Supplier<T> registerSupplierWithResourceKey(R registry, String id, Function<ResourceKey<T>, T> object) {
-        final var resourceLocation = ResourceLocation.fromNamespaceAndPath(MOD_ID, id);
+        final var resourceLocation = Identifier.fromNamespaceAndPath(MOD_ID, id);
         final var registeredObject = Registry.register(registry, resourceLocation, object.apply(ResourceKey.create(registry.key(), resourceLocation)));
 
         return () -> registeredObject;

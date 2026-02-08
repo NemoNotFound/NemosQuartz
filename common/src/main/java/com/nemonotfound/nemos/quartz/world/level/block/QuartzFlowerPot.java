@@ -12,6 +12,7 @@ import net.minecraft.stats.Stats;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.world.attribute.EnvironmentAttributes;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.ItemStack;
@@ -21,7 +22,6 @@ import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.ScheduledTickAccess;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.CreakingHeartBlock;
 import net.minecraft.world.level.block.EyeblossomBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.gameevent.GameEvent;
@@ -122,11 +122,11 @@ public class QuartzFlowerPot extends Block {
     }
 
     protected void randomTick(@NotNull BlockState state, @NotNull ServerLevel level, @NotNull BlockPos pos, @NotNull RandomSource random) {
-        if (this.isRandomlyTicking(state) && level.dimensionType().natural()) {
+        if (this.isRandomlyTicking(state)) {
             var isOpenEyeblossom = this.potted == Blocks.OPEN_EYEBLOSSOM;
-            var isNaturalLight = CreakingHeartBlock.isNaturalNight(level);
+            var flag = level.environmentAttributes().getValue(EnvironmentAttributes.EYEBLOSSOM_OPEN, pos).toBoolean(isOpenEyeblossom);
 
-            if (isOpenEyeblossom != isNaturalLight) {
+            if (isOpenEyeblossom != flag) {
                 level.setBlock(pos, this.opposite(state), 3);
                 EyeblossomBlock.Type type = EyeblossomBlock.Type.fromBoolean(isOpenEyeblossom).transform();
                 type.spawnTransformParticle(level, pos, random);

@@ -14,7 +14,7 @@ import net.minecraft.client.data.models.model.ModelTemplate;
 import net.minecraft.client.data.models.model.ModelTemplates;
 import net.minecraft.client.data.models.model.TextureMapping;
 import net.minecraft.client.data.models.model.TextureSlot;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 
@@ -162,7 +162,7 @@ public class QuartzModelProvider extends FabricModelProvider {
             return this.flowerPotTemplate;
         }
 
-        public ResourceLocation createItemModel(BlockModelGenerators generator, Block block) {
+        public Identifier createItemModel(BlockModelGenerators generator, Block block) {
             var item = block.asItem();
 
             return this.isEmissive ? generator.createFlatItemModelWithBlockTextureAndOverlay(item, block, "_emissive") : generator.createFlatItemModelWithBlockTexture(item, block);
