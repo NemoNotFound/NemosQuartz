@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "nemos_quartz",
+	"version": "${version}",
+	"name": "Nemo's Quartz",
+	"description": "Add more quartz blocks to Minecraft!",
+	"authors": [
+		"Nemo"
+	],
+	"contact": {
+		"homepage": "https://nemonotfound.com",
+		"sources": "https://github.com/NemoNotFound/NemosQuartz"
+	},
+	"license": "ARR",
+	"icon": "assets/nemos_quartz/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.nemonotfound.nemos.quartz.NemosQuartz"
+		],
+		"client": [
+			"com.nemonotfound.nemos.quartz.NemosQuartzClient"
+		],
+		"fabric-datagen": [
+			"com.nemonotfound.nemos.quartz.NemosQuartzDataGenerator"
+		]
+	},
+	"mixins": [
+		"nemos_quartz.mixins.json",
+		{
+			"config": "nemos_quartz.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"minecraft": ">=${minecraft_version}",
+		"java": ">=${java_version}",
+		"fabric-api": "*"
+	}
+}

@@ -16,10 +16,6 @@ For detailed information, check out the [wiki](https://wiki.nemonotfound.com/pro
 - [CurseForge](https://curseforge.com/minecraft/mc-mods/nemos-quartz)
 - [Modrinth](https://modrinth.com/mod/nemos-quartz)
 
-## Third-Party Components
-
-- Uses [MultiLoader‑Template (CC0-1.0)](https://github.com/jaredlll08/MultiLoader-Template) for multiple loader support.
-
 ## Join my Discord!
 
 Join my Discord to meet new people and stay up to date with all of my mods!
