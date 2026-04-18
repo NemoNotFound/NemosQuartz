@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "quartz_brick_stairs",
+  "key": {
+    "#": "nemos_quartz:smoky_quartz_bricks"
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "nemos_quartz:smoky_quartz_brick_stairs"
+  }
+}

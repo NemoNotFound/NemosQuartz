@@ -1,5 +1,5 @@
 {
-  "parent": "nemos_quartz:block/template_quartz_potted_azalea_bush",
+  "parent": "nemos_quartz:block/quartz_potted_azalea_bush_template",
   "textures": {
     "plant": "minecraft:block/potted_azalea_bush_plant",
     "side": "minecraft:block/potted_azalea_bush_side",

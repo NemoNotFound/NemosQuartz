@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "nemos_quartz:block/lemon_quartz_bricks"
+  }
+}

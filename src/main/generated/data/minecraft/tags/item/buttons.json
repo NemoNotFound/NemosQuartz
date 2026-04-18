@@ -1,5 +1,10 @@
 {
   "values": [
-    "nemos_quartz:quartz_button"
+    "nemos_quartz:quartz_button",
+    "nemos_quartz:rose_quartz_button",
+    "nemos_quartz:lemon_quartz_button",
+    "nemos_quartz:green_quartz_button",
+    "nemos_quartz:blue_quartz_button",
+    "nemos_quartz:smoky_quartz_button"
   ]
 }

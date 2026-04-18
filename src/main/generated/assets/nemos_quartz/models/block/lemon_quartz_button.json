@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "nemos_quartz:block/lemon_quartz_block_top"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "nemos_quartz:smoky_quartz_block",
+  "result": {
+    "id": "nemos_quartz:smoky_quartz_brick_stairs"
+  }
+}

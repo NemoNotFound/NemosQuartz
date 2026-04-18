@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_up",
+  "textures": {
+    "texture": "nemos_quartz:block/green_quartz_block_top"
+  }
+}

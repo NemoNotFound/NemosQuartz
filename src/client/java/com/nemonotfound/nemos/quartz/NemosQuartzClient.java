@@ -10,6 +10,14 @@ import java.util.List;
 public class NemosQuartzClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
-		BlockColorRegistry.register(List.of(BlockTintSources.grass()), QuartzBlocks.QUARTZ_POTTED_FERN);
+		BlockColorRegistry.register(
+				List.of(BlockTintSources.grass()),
+				QuartzBlocks.QUARTZ_POTTED_FERN,
+				QuartzBlocks.ROSE_QUARTZ_POTTED_FERN,
+				QuartzBlocks.LEMON_QUARTZ_POTTED_FERN,
+				QuartzBlocks.GREEN_QUARTZ_POTTED_FERN,
+				QuartzBlocks.BLUE_QUARTZ_POTTED_FERN,
+				QuartzBlocks.SMOKY_QUARTZ_POTTED_FERN
+		);
 	}
 }

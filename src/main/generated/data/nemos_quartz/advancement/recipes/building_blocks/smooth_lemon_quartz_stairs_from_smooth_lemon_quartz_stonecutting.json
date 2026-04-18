@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_smooth_lemon_quartz": {
+      "conditions": {
+        "items": [
+          {
+            "items": "nemos_quartz:smooth_lemon_quartz"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "nemos_quartz:smooth_lemon_quartz_stairs_from_smooth_lemon_quartz_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_smooth_lemon_quartz"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "nemos_quartz:smooth_lemon_quartz_stairs_from_smooth_lemon_quartz_stonecutting"
+    ]
+  }
+}

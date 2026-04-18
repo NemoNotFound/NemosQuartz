@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "smooth_quartz_slab",
+  "key": {
+    "#": "nemos_quartz:smooth_smoky_quartz"
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "nemos_quartz:smooth_smoky_quartz_slab"
+  }
+}

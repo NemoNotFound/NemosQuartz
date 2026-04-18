@@ -1,5 +1,10 @@
 {
   "values": [
-    "nemos_quartz:quartz_pressure_plate"
+    "nemos_quartz:quartz_pressure_plate",
+    "nemos_quartz:rose_quartz_pressure_plate",
+    "nemos_quartz:lemon_quartz_pressure_plate",
+    "nemos_quartz:green_quartz_pressure_plate",
+    "nemos_quartz:blue_quartz_pressure_plate",
+    "nemos_quartz:smoky_quartz_pressure_plate"
   ]
 }

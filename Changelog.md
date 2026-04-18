@@ -1,4 +1,15 @@
-# Changelog v1.0.1
+# Changelog v1.1
+
+## Additions
+- Rose Quartz
+- Lemon Quartz
+- Green Quartz
+- Blue Quartz
+- Smoky Quartz
+
+## Changes
+- Changed recipes using "quartz" to use the item tag "quartz"
+- Mason now trades with all quartz variants
 
 ## Fixes
-- Fixed Quartz Potted Roots to use normal pot texture
+- Quartz Flower Pot turns into regular pot when removing plant

@@ -1,6 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "redstone",
+  "group": "quartz_button",
   "ingredients": [
     "minecraft:quartz_block"
   ],

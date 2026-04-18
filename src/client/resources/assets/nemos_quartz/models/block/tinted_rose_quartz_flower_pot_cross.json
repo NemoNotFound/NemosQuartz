@@ -1,0 +1,7 @@
+{
+    "parent": "nemos_quartz:block/tinted_flower_pot_cross_template",
+    "textures": {
+        "particle": "nemos_quartz:block/rose_quartz_flower_pot",
+        "flowerpot": "nemos_quartz:block/rose_quartz_flower_pot"
+    }
+}

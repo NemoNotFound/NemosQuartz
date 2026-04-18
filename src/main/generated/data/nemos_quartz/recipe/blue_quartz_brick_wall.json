@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "quartz_brick_wall",
+  "key": {
+    "#": "nemos_quartz:blue_quartz_bricks"
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "nemos_quartz:blue_quartz_brick_wall"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "nemos_quartz:item/blue_quartz_flower_pot"
+  }
+}

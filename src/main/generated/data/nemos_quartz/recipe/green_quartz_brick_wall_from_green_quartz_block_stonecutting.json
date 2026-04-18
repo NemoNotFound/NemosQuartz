@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "nemos_quartz:green_quartz_block",
+  "result": {
+    "id": "nemos_quartz:green_quartz_brick_wall"
+  }
+}

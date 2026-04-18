@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "nemos_quartz:block/rose_quartz_block_bottom"
+  }
+}

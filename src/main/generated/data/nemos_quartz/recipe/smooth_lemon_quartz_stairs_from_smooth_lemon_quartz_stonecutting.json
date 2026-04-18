@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "nemos_quartz:smooth_lemon_quartz",
+  "result": {
+    "id": "nemos_quartz:smooth_lemon_quartz_stairs"
+  }
+}

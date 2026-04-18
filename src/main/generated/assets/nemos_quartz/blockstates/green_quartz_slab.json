@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "nemos_quartz:block/green_quartz_slab"
+    },
+    "type=double": {
+      "model": "nemos_quartz:block/green_quartz_block"
+    },
+    "type=top": {
+      "model": "nemos_quartz:block/green_quartz_slab_top"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "nemos_quartz:blue_quartz_block",
+  "result": {
+    "count": 4,
+    "id": "nemos_quartz:blue_quartz_button"
+  }
+}

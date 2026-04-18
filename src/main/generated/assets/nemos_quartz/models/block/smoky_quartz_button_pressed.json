@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "nemos_quartz:block/smoky_quartz_block_top"
+  }
+}

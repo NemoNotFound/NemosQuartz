@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "quartz_bricks",
+  "key": {
+    "#": "nemos_quartz:rose_quartz_block"
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 4,
+    "id": "nemos_quartz:rose_quartz_bricks"
+  }
+}

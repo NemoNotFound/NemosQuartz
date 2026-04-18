@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "nemos_quartz:block/cracked_smoky_quartz_bricks"
+  }
+}

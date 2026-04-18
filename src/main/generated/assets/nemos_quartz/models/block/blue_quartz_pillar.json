@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "nemos_quartz:block/blue_quartz_pillar_top",
+    "side": "nemos_quartz:block/blue_quartz_pillar"
+  }
+}

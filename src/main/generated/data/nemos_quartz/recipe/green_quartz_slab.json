@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "quartz_slab",
+  "key": {
+    "#": [
+      "nemos_quartz:chiseled_green_quartz_block",
+      "nemos_quartz:green_quartz_block",
+      "nemos_quartz:green_quartz_pillar"
+    ]
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "nemos_quartz:green_quartz_slab"
+  }
+}

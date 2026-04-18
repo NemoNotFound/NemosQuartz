@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "quartz_pressure_plate",
+  "key": {
+    "#": "nemos_quartz:blue_quartz_block"
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "id": "nemos_quartz:blue_quartz_pressure_plate"
+  }
+}

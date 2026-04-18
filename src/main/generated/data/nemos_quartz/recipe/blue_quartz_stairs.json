@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "quartz_stairs",
+  "key": {
+    "#": [
+      "nemos_quartz:chiseled_blue_quartz_block",
+      "nemos_quartz:blue_quartz_block",
+      "nemos_quartz:blue_quartz_pillar"
+    ]
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "nemos_quartz:blue_quartz_stairs"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "smooth_quartz_stairs",
+  "key": {
+    "#": "nemos_quartz:smooth_blue_quartz"
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "nemos_quartz:smooth_blue_quartz_stairs"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "nemos_quartz:block/smoky_quartz_block_bottom",
+    "side": "nemos_quartz:block/smoky_quartz_block_bottom",
+    "top": "nemos_quartz:block/smoky_quartz_block_bottom"
+  }
+}

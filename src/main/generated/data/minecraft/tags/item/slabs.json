@@ -1,6 +1,21 @@
 {
   "values": [
     "nemos_quartz:cracked_quartz_brick_slab",
-    "nemos_quartz:quartz_brick_slab"
+    "nemos_quartz:quartz_brick_slab",
+    "nemos_quartz:rose_quartz_slab",
+    "nemos_quartz:cracked_rose_quartz_brick_slab",
+    "nemos_quartz:rose_quartz_brick_slab",
+    "nemos_quartz:lemon_quartz_slab",
+    "nemos_quartz:cracked_lemon_quartz_brick_slab",
+    "nemos_quartz:lemon_quartz_brick_slab",
+    "nemos_quartz:green_quartz_slab",
+    "nemos_quartz:cracked_green_quartz_brick_slab",
+    "nemos_quartz:green_quartz_brick_slab",
+    "nemos_quartz:blue_quartz_slab",
+    "nemos_quartz:cracked_blue_quartz_brick_slab",
+    "nemos_quartz:blue_quartz_brick_slab",
+    "nemos_quartz:smoky_quartz_slab",
+    "nemos_quartz:cracked_smoky_quartz_brick_slab",
+    "nemos_quartz:smoky_quartz_brick_slab"
   ]
 }

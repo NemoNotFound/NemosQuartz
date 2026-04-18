@@ -1,0 +1,7 @@
+{
+    "parent": "nemos_quartz:block/potted_bamboo_template",
+    "textures": {
+        "particle": "nemos_quartz:block/blue_quartz_flower_pot",
+        "flowerpot": "nemos_quartz:block/blue_quartz_flower_pot"
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "nemos_quartz:blue_quartz_bricks",
+  "result": {
+    "id": "nemos_quartz:blue_quartz_brick_stairs"
+  }
+}

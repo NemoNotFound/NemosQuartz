@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "nemos_quartz:block/cracked_lemon_quartz_bricks",
+    "side": "nemos_quartz:block/cracked_lemon_quartz_bricks",
+    "top": "nemos_quartz:block/cracked_lemon_quartz_bricks"
+  }
+}
