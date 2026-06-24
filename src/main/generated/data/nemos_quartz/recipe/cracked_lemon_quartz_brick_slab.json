@@ -1,7 +1,6 @@
 {
   "type": "minecraft:smelting",
   "category": "blocks",
-  "cookingtime": 200,
   "experience": 0.1,
   "ingredient": "nemos_quartz:lemon_quartz_brick_slab",
   "result": {

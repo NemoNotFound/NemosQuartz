@@ -126,7 +126,7 @@ modrinth {
     token.set(System.getenv("MODRINTH_TOKEN"))
     projectId.set(findProperty('modrinth_project_id'))
     changelog.set(file('Changelog.md').text)
-    versionName.set(findProperty('mod_name') + ' Fabric ' + findProperty('version'))
+    versionName.set(findProperty('mod_name') + ' ' + findProperty('version'))
     versionType.set("release")
     uploadFile.set(tasks.jar)
     dependencies {

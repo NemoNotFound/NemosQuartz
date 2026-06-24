@@ -1,0 +1,131 @@
+package com.nemonotfound.nemos.quartz.reference;
+
+import net.minecraft.core.registries.Registries;
+import net.minecraft.references.BlockItemId;
+import net.minecraft.resources.Identifier;
+import net.minecraft.resources.ResourceKey;
+
+import static com.nemonotfound.nemos.quartz.NemosQuartz.MOD_ID;
+
+public class QuartzBlockItemIds {
+
+    public static final BlockItemId QUARTZ_PRESSURE_PLATE = create("quartz_pressure_plate");
+    public static final BlockItemId QUARTZ_BUTTON = create("quartz_button");
+    public static final BlockItemId CRACKED_QUARTZ_BRICKS = create("cracked_quartz_bricks");
+    public static final BlockItemId CRACKED_QUARTZ_BRICK_STAIRS = create("cracked_quartz_brick_stairs");
+    public static final BlockItemId CRACKED_QUARTZ_BRICK_SLAB = create("cracked_quartz_brick_slab");
+    public static final BlockItemId CRACKED_QUARTZ_BRICK_WALL = create("cracked_quartz_brick_wall");
+    public static final BlockItemId QUARTZ_BRICK_STAIRS = create("quartz_brick_stairs");
+    public static final BlockItemId QUARTZ_BRICK_SLAB = create("quartz_brick_slab");
+    public static final BlockItemId QUARTZ_BRICK_WALL = create("quartz_brick_wall");
+    public static final BlockItemId QUARTZ_FLOWER_POT = create("quartz_flower_pot");
+    public static final BlockItemId ROSE_QUARTZ_BLOCK = create("rose_quartz_block");
+    public static final BlockItemId ROSE_QUARTZ_STAIRS = create("rose_quartz_stairs");
+    public static final BlockItemId ROSE_QUARTZ_SLAB = create("rose_quartz_slab");
+    public static final BlockItemId ROSE_QUARTZ_PRESSURE_PLATE = create("rose_quartz_pressure_plate");
+    public static final BlockItemId ROSE_QUARTZ_BUTTON = create("rose_quartz_button");
+    public static final BlockItemId CHISELED_ROSE_QUARTZ_BLOCK = create("chiseled_rose_quartz_block");
+    public static final BlockItemId ROSE_QUARTZ_BRICKS = create("rose_quartz_bricks");
+    public static final BlockItemId ROSE_QUARTZ_BRICK_STAIRS = create("rose_quartz_brick_stairs");
+    public static final BlockItemId ROSE_QUARTZ_BRICK_SLAB = create("rose_quartz_brick_slab");
+    public static final BlockItemId ROSE_QUARTZ_BRICK_WALL = create("rose_quartz_brick_wall");
+    public static final BlockItemId CRACKED_ROSE_QUARTZ_BRICKS = create("cracked_rose_quartz_bricks");
+    public static final BlockItemId CRACKED_ROSE_QUARTZ_BRICK_STAIRS = create("cracked_rose_quartz_brick_stairs");
+    public static final BlockItemId CRACKED_ROSE_QUARTZ_BRICK_SLAB = create("cracked_rose_quartz_brick_slab");
+    public static final BlockItemId CRACKED_ROSE_QUARTZ_BRICK_WALL = create("cracked_rose_quartz_brick_wall");
+    public static final BlockItemId ROSE_QUARTZ_PILLAR = create("rose_quartz_pillar");
+    public static final BlockItemId SMOOTH_ROSE_QUARTZ = create("smooth_rose_quartz");
+    public static final BlockItemId SMOOTH_ROSE_QUARTZ_STAIRS = create("smooth_rose_quartz_stairs");
+    public static final BlockItemId SMOOTH_ROSE_QUARTZ_SLAB = create("smooth_rose_quartz_slab");
+    public static final BlockItemId NETHER_ROSE_QUARTZ_ORE = create("nether_rose_quartz_ore");
+    public static final BlockItemId ROSE_QUARTZ_FLOWER_POT = create("rose_quartz_flower_pot");
+    public static final BlockItemId LEMON_QUARTZ_BLOCK = create("lemon_quartz_block");
+    public static final BlockItemId LEMON_QUARTZ_STAIRS = create("lemon_quartz_stairs");
+    public static final BlockItemId LEMON_QUARTZ_SLAB = create("lemon_quartz_slab");
+    public static final BlockItemId LEMON_QUARTZ_PRESSURE_PLATE = create("lemon_quartz_pressure_plate");
+    public static final BlockItemId LEMON_QUARTZ_BUTTON = create("lemon_quartz_button");
+    public static final BlockItemId CHISELED_LEMON_QUARTZ_BLOCK = create("chiseled_lemon_quartz_block");
+    public static final BlockItemId LEMON_QUARTZ_BRICKS = create("lemon_quartz_bricks");
+    public static final BlockItemId LEMON_QUARTZ_BRICK_STAIRS = create("lemon_quartz_brick_stairs");
+    public static final BlockItemId LEMON_QUARTZ_BRICK_SLAB = create("lemon_quartz_brick_slab");
+    public static final BlockItemId LEMON_QUARTZ_BRICK_WALL = create("lemon_quartz_brick_wall");
+    public static final BlockItemId CRACKED_LEMON_QUARTZ_BRICKS = create("cracked_lemon_quartz_bricks");
+    public static final BlockItemId CRACKED_LEMON_QUARTZ_BRICK_STAIRS = create("cracked_lemon_quartz_brick_stairs");
+    public static final BlockItemId CRACKED_LEMON_QUARTZ_BRICK_SLAB = create("cracked_lemon_quartz_brick_slab");
+    public static final BlockItemId CRACKED_LEMON_QUARTZ_BRICK_WALL = create("cracked_lemon_quartz_brick_wall");
+    public static final BlockItemId LEMON_QUARTZ_PILLAR = create("lemon_quartz_pillar");
+    public static final BlockItemId SMOOTH_LEMON_QUARTZ = create("smooth_lemon_quartz");
+    public static final BlockItemId SMOOTH_LEMON_QUARTZ_STAIRS = create("smooth_lemon_quartz_stairs");
+    public static final BlockItemId SMOOTH_LEMON_QUARTZ_SLAB = create("smooth_lemon_quartz_slab");
+    public static final BlockItemId NETHER_LEMON_QUARTZ_ORE = create("nether_lemon_quartz_ore");
+    public static final BlockItemId LEMON_QUARTZ_FLOWER_POT = create("lemon_quartz_flower_pot");
+    public static final BlockItemId GREEN_QUARTZ_BLOCK = create("green_quartz_block");
+    public static final BlockItemId GREEN_QUARTZ_STAIRS = create("green_quartz_stairs");
+    public static final BlockItemId GREEN_QUARTZ_SLAB = create("green_quartz_slab");
+    public static final BlockItemId GREEN_QUARTZ_PRESSURE_PLATE = create("green_quartz_pressure_plate");
+    public static final BlockItemId GREEN_QUARTZ_BUTTON = create("green_quartz_button");
+    public static final BlockItemId CHISELED_GREEN_QUARTZ_BLOCK = create("chiseled_green_quartz_block");
+    public static final BlockItemId GREEN_QUARTZ_BRICKS = create("green_quartz_bricks");
+    public static final BlockItemId GREEN_QUARTZ_BRICK_STAIRS = create("green_quartz_brick_stairs");
+    public static final BlockItemId GREEN_QUARTZ_BRICK_SLAB = create("green_quartz_brick_slab");
+    public static final BlockItemId GREEN_QUARTZ_BRICK_WALL = create("green_quartz_brick_wall");
+    public static final BlockItemId CRACKED_GREEN_QUARTZ_BRICKS = create("cracked_green_quartz_bricks");
+    public static final BlockItemId CRACKED_GREEN_QUARTZ_BRICK_STAIRS = create("cracked_green_quartz_brick_stairs");
+    public static final BlockItemId CRACKED_GREEN_QUARTZ_BRICK_SLAB = create("cracked_green_quartz_brick_slab");
+    public static final BlockItemId CRACKED_GREEN_QUARTZ_BRICK_WALL = create("cracked_green_quartz_brick_wall");
+    public static final BlockItemId GREEN_QUARTZ_PILLAR = create("green_quartz_pillar");
+    public static final BlockItemId SMOOTH_GREEN_QUARTZ = create("smooth_green_quartz");
+    public static final BlockItemId SMOOTH_GREEN_QUARTZ_STAIRS = create("smooth_green_quartz_stairs");
+    public static final BlockItemId SMOOTH_GREEN_QUARTZ_SLAB = create("smooth_green_quartz_slab");
+    public static final BlockItemId NETHER_GREEN_QUARTZ_ORE = create("nether_green_quartz_ore");
+    public static final BlockItemId GREEN_QUARTZ_FLOWER_POT = create("green_quartz_flower_pot");
+    public static final BlockItemId BLUE_QUARTZ_BLOCK = create("blue_quartz_block");
+    public static final BlockItemId BLUE_QUARTZ_STAIRS = create("blue_quartz_stairs");
+    public static final BlockItemId BLUE_QUARTZ_SLAB = create("blue_quartz_slab");
+    public static final BlockItemId BLUE_QUARTZ_PRESSURE_PLATE = create("blue_quartz_pressure_plate");
+    public static final BlockItemId BLUE_QUARTZ_BUTTON = create("blue_quartz_button");
+    public static final BlockItemId CHISELED_BLUE_QUARTZ_BLOCK = create("chiseled_blue_quartz_block");
+    public static final BlockItemId BLUE_QUARTZ_BRICKS = create("blue_quartz_bricks");
+    public static final BlockItemId BLUE_QUARTZ_BRICK_STAIRS = create("blue_quartz_brick_stairs");
+    public static final BlockItemId BLUE_QUARTZ_BRICK_SLAB = create("blue_quartz_brick_slab");
+    public static final BlockItemId BLUE_QUARTZ_BRICK_WALL = create("blue_quartz_brick_wall");
+    public static final BlockItemId CRACKED_BLUE_QUARTZ_BRICKS = create("cracked_blue_quartz_bricks");
+    public static final BlockItemId CRACKED_BLUE_QUARTZ_BRICK_STAIRS = create("cracked_blue_quartz_brick_stairs");
+    public static final BlockItemId CRACKED_BLUE_QUARTZ_BRICK_SLAB = create("cracked_blue_quartz_brick_slab");
+    public static final BlockItemId CRACKED_BLUE_QUARTZ_BRICK_WALL = create("cracked_blue_quartz_brick_wall");
+    public static final BlockItemId BLUE_QUARTZ_PILLAR = create("blue_quartz_pillar");
+    public static final BlockItemId SMOOTH_BLUE_QUARTZ = create("smooth_blue_quartz");
+    public static final BlockItemId SMOOTH_BLUE_QUARTZ_STAIRS = create("smooth_blue_quartz_stairs");
+    public static final BlockItemId SMOOTH_BLUE_QUARTZ_SLAB = create("smooth_blue_quartz_slab");
+    public static final BlockItemId NETHER_BLUE_QUARTZ_ORE = create("nether_blue_quartz_ore");
+    public static final BlockItemId BLUE_QUARTZ_FLOWER_POT = create("blue_quartz_flower_pot");
+    public static final BlockItemId SMOKY_QUARTZ_BLOCK = create("smoky_quartz_block");
+    public static final BlockItemId SMOKY_QUARTZ_STAIRS = create("smoky_quartz_stairs");
+    public static final BlockItemId SMOKY_QUARTZ_SLAB = create("smoky_quartz_slab");
+    public static final BlockItemId SMOKY_QUARTZ_PRESSURE_PLATE = create("smoky_quartz_pressure_plate");
+    public static final BlockItemId SMOKY_QUARTZ_BUTTON = create("smoky_quartz_button");
+    public static final BlockItemId CHISELED_SMOKY_QUARTZ_BLOCK = create("chiseled_smoky_quartz_block");
+    public static final BlockItemId SMOKY_QUARTZ_BRICKS = create("smoky_quartz_bricks");
+    public static final BlockItemId SMOKY_QUARTZ_BRICK_STAIRS = create("smoky_quartz_brick_stairs");
+    public static final BlockItemId SMOKY_QUARTZ_BRICK_SLAB = create("smoky_quartz_brick_slab");
+    public static final BlockItemId SMOKY_QUARTZ_BRICK_WALL = create("smoky_quartz_brick_wall");
+    public static final BlockItemId CRACKED_SMOKY_QUARTZ_BRICKS = create("cracked_smoky_quartz_bricks");
+    public static final BlockItemId CRACKED_SMOKY_QUARTZ_BRICK_STAIRS = create("cracked_smoky_quartz_brick_stairs");
+    public static final BlockItemId CRACKED_SMOKY_QUARTZ_BRICK_SLAB = create("cracked_smoky_quartz_brick_slab");
+    public static final BlockItemId CRACKED_SMOKY_QUARTZ_BRICK_WALL = create("cracked_smoky_quartz_brick_wall");
+    public static final BlockItemId SMOKY_QUARTZ_PILLAR = create("smoky_quartz_pillar");
+    public static final BlockItemId SMOOTH_SMOKY_QUARTZ = create("smooth_smoky_quartz");
+    public static final BlockItemId SMOOTH_SMOKY_QUARTZ_STAIRS = create("smooth_smoky_quartz_stairs");
+    public static final BlockItemId SMOOTH_SMOKY_QUARTZ_SLAB = create("smooth_smoky_quartz_slab");
+    public static final BlockItemId NETHER_SMOKY_QUARTZ_ORE = create("nether_smoky_quartz_ore");
+    public static final BlockItemId SMOKY_QUARTZ_FLOWER_POT = create("smoky_quartz_flower_pot");
+
+    private static BlockItemId create(final String name) {
+        Identifier id = Identifier.fromNamespaceAndPath(MOD_ID, name);
+        return create(id, id);
+    }
+
+    private static BlockItemId create(final Identifier blockId, final Identifier itemId) {
+        return new BlockItemId(ResourceKey.create(Registries.BLOCK, blockId), ResourceKey.create(Registries.ITEM, itemId));
+    }
+}

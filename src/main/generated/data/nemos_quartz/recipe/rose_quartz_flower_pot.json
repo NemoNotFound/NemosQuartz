@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "group": "quartz_flower_pot",
   "key": {
     "#": "nemos_quartz:rose_quartz"
