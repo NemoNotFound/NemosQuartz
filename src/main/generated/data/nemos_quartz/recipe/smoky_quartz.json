@@ -1,5 +1,6 @@
 {
   "type": "minecraft:smelting",
+  "cookingtime": 200,
   "experience": 0.2,
   "ingredient": "nemos_quartz:nether_smoky_quartz_ore",
   "result": {

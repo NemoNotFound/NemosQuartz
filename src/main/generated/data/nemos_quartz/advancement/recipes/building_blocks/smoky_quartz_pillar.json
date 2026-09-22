@@ -33,7 +33,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "nemos_quartz:smoky_quartz_pillar"
+        "recipes": "nemos_quartz:smoky_quartz_pillar"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

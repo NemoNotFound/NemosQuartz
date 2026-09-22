@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "nemos_quartz:quartz_button"
+        "recipes": "nemos_quartz:quartz_button"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

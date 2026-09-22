@@ -33,7 +33,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "nemos_quartz:chiseled_green_quartz_block"
+        "recipes": "nemos_quartz:chiseled_green_quartz_block"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

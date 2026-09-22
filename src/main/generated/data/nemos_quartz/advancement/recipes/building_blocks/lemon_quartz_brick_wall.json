@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "nemos_quartz:lemon_quartz_brick_wall"
+        "recipes": "nemos_quartz:lemon_quartz_brick_wall"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

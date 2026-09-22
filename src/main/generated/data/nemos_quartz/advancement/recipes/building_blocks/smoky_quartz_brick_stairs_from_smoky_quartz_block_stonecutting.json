@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "nemos_quartz:smoky_quartz_brick_stairs_from_smoky_quartz_block_stonecutting"
+        "recipes": "nemos_quartz:smoky_quartz_brick_stairs_from_smoky_quartz_block_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

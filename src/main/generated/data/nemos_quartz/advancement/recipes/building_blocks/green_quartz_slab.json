@@ -33,7 +33,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "nemos_quartz:green_quartz_slab"
+        "recipes": "nemos_quartz:green_quartz_slab"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

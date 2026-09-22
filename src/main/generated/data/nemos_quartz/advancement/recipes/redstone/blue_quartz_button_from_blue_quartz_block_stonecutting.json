@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "nemos_quartz:blue_quartz_button_from_blue_quartz_block_stonecutting"
+        "recipes": "nemos_quartz:blue_quartz_button_from_blue_quartz_block_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

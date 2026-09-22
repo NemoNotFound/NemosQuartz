@@ -11,7 +11,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.storage.loot.LootPool;
 import net.minecraft.world.level.storage.loot.LootTable;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
-import net.minecraft.world.level.storage.loot.providers.number.ConstantValue;
+import net.minecraft.world.level.storage.loot.providers.number.ints.ContextIntProviders;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -382,11 +382,11 @@ public class QuartzLootTableProvider extends FabricBlockLootSubProvider {
         return LootTable.lootTable()
                 .withPool(
                         this.applyExplosionCondition(flowerPot, LootPool.lootPool().
-                                setRolls(ConstantValue.exactly(1.0F))
+                                setRolls(ContextIntProviders.exactly(1))
                                 .add(LootItem.lootTableItem(flowerPot)))
                 ).withPool(
                         this.applyExplosionCondition(item, LootPool.lootPool()
-                                .setRolls(ConstantValue.exactly(1.0F))
+                                .setRolls(ContextIntProviders.exactly(1))
                                 .add(LootItem.lootTableItem(item)))
                 );
     }

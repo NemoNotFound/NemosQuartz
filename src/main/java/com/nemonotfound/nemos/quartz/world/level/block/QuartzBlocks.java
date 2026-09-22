@@ -439,7 +439,7 @@ public class QuartzBlocks {
                 .instrument(NoteBlockInstrument.BASEDRUM)
                 .noCollision()
                 .strength(0.5F)
-                .pushReaction(PushReaction.DESTROY));
+                .pushReaction(PushReaction.POPPED));
     }
 
     private static Block registerButton(final ResourceKey<Block> id) {

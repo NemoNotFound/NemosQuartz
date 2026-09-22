@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "nemos_quartz:smooth_lemon_quartz_slab"
+        "recipes": "nemos_quartz:smooth_lemon_quartz_slab"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

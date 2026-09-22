@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "nemos_quartz:rose_quartz_flower_pot"
+        "recipes": "nemos_quartz:rose_quartz_flower_pot"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

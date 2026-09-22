@@ -33,7 +33,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "nemos_quartz:rose_quartz_stairs"
+        "recipes": "nemos_quartz:rose_quartz_stairs"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

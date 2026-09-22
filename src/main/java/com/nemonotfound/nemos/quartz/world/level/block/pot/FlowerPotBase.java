@@ -5,6 +5,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.stats.Stats;
+import net.minecraft.util.Prediction;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
@@ -76,7 +77,7 @@ public abstract class FlowerPotBase extends Block {
         } else {
             var itemStack = new ItemStack(this.potted);
             if (!player.addItem(itemStack)) {
-                player.drop(itemStack, false);
+                player.drop(itemStack, false, Prediction.PREDICTED);
             }
 
             level.setBlock(pos, getFlowerPot().defaultBlockState(), 3);
