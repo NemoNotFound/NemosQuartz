@@ -1,9 +1,9 @@
 {
-  "feature": "minecraft:ore_quartz",
+  "feature": "nemos_quartz:ore_quartz_selector",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 3
+      "count": 16
     },
     {
       "type": "minecraft:in_square"

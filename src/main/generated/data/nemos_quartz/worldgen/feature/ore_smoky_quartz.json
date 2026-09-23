@@ -4,7 +4,7 @@
   "size": 14,
   "targets": [
     {
-      "state": "nemos_quartz:nether_green_quartz_ore",
+      "state": "nemos_quartz:nether_smoky_quartz_ore",
       "target": {
         "block": "minecraft:netherrack",
         "predicate_type": "minecraft:block_match"

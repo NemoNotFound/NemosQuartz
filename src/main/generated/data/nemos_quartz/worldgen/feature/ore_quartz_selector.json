@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": "nemos_quartz:ore_quartz",
+      "placement": []
+    },
+    {
+      "feature": "nemos_quartz:ore_rose_quartz",
+      "placement": []
+    },
+    {
+      "feature": "nemos_quartz:ore_lemon_quartz",
+      "placement": []
+    },
+    {
+      "feature": "nemos_quartz:ore_green_quartz",
+      "placement": []
+    },
+    {
+      "feature": "nemos_quartz:ore_blue_quartz",
+      "placement": []
+    },
+    {
+      "feature": "nemos_quartz:ore_smoky_quartz",
+      "placement": []
+    }
+  ]
+}
